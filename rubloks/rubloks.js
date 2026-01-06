@@ -175,7 +175,7 @@ app.post("/login",(req,res)=>{
 });
 
 /* ================= ЗАПУСК ================= */
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log("Сервер запущен на порту " + PORT);
+app.listen(process.env.PORT || 3000, () => {
+  console.log("Сервер запущен");
 });
+
