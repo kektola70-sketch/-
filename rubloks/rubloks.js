@@ -180,6 +180,6 @@ app.listen(PORT, ()=>console.log("РУБЛОКС ▶ http://localhost:"+PORT));
 const express = require("express");
 const fs = require("fs");
 
-const API_KEY = process.env.API_KEY;rnd_Pb4XcBbYPtB4nxTVy6sqJsNKE2dq
+const API_KEY = process.env.API_KEY;
 
 const app = express();
