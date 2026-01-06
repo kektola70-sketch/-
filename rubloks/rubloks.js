@@ -176,10 +176,6 @@ app.post("/login",(req,res)=>{
 
 /* ================= ЗАПУСК ================= */
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, ()=>console.log("РУБЛОКС ▶ http://localhost:"+PORT));
-const express = require("express");
-const fs = require("fs");
-
-const API_KEY = process.env.API_KEY;
-
-const app = express();
+app.listen(PORT, () => {
+  console.log("Сервер запущен на порту " + PORT);
+});
